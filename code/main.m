@@ -132,7 +132,7 @@ minDist = round((60/maxHr) * fs);   % ~50 samples at fs=100
 [peaks, locs] = findpeaks(scg, 'MinPeakDistance', minDist);
 
 % Minimum Amplitude 
-T = 0.5 * mean(peaks);              %% understand the fraction
+T = 0.5 * mean(peaks);              
 peaks_cand = peaks(peaks > T);
 locs_cand = locs(peaks > T);
 
