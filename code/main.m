@@ -1,5 +1,5 @@
 %% LOAD DATA
-data = readmatrix("../ex_data/person2/person2_fast.csv");
+data = readmatrix("../data/person2/person2_spontaneous.csv");
 
 x = data(:, 2);
 y = data(:, 3);
