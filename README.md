@@ -13,6 +13,7 @@ The dataset consists of accelerometer recordings collected from **3 subjects**, 
 - Spontaneous breathing
 - Spontaneous breathing with apnea
 - Spontaneous breathing with voluntary movement
+
 The accelerometer signals are acquired using a smartphone placed on the subjects' chest.
 
 Respiratory Rate Detection pipeline: 
