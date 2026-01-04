@@ -144,7 +144,7 @@ xlim([47 52.5]);
 %% Template & Cross-correlation
 
 % Average template around each peak
-W = round(0.5 * fs);    % 50 samples around each peak
+W = round(0.3 * fs);    % 60 samples around each peak
 beats = [];
 locs_valid = [];
 
